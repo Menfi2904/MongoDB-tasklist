@@ -1,0 +1,39 @@
+DATABASE MONGODB ATLAS : LISTA DE TAREAS
+
+COLECCION TAREAS
+
+localhost:4000/  				                            <----- Ruta Raiz // GET
+
+localhost:4000/tareas/ 				                        <----- Read [trae la coleccion tareas] // ruta GET
+
+localhost:4000/tareas/creartarea		                    <----- Create [crear una nueva tarea]  // ruta POST
+
+localhost:4000/tareas/borrartarea/:id	 	                <------- Delete [Borrar una tarea por id] // ruta delete
+
+localhost:4000/tareas/actualizartarea/:id	                <------ Update [actualizar una tarea por id] // ruta PUT
+
+localhost:4000/tareas/buscartarea/:id 		                <----- Read [encontrar tarea por id] // ruta GET 
+
+
+
+COLECCION USUARIOS
+
+http://localhost:4000/usuarios/  			                <----- Read [trae la coleccion users] // ruta GET
+
+http://localhost:4000/usuarios/crearusuario		            <----- Create [crea un nuevo usuario]  // ruta POST
+
+http://localhost:4000/usuarios/borrarusuario/:id	        <------- Delete [Borra un usuario por id] // ruta delete
+
+http://localhost:4000/usuarios/actualizarusuario/:id	    <------ Update [actualizar un usuario por id] // ruta PUT
+
+http://localhost:4000/usuarios/buscarusuario/:id	        <----- Read [encontrar un usuario por id] // ruta GET
+
+
+RUTA VALIDACION ACCESO JWT
+
+http://localhost:4000/useraccess/loginmongoatlas	        <------------ ruta que genera un JWT // ruta POST
+
+
+Es Requerido Para Poder Ver Toda la Informacion de las RUTAS GET : 
+http://localhost:4000/tareas/ 
+http://localhost:4000/usuarios/ 
